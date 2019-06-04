@@ -1,2 +1,77 @@
-# boostrapnew
-problem
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Верстка сайта на Bootstrap 4</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="css/main.css"></head>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"></nav>
+		<div class="container-fluid"></div>
+			<a href="#" class="navbar-brad"></a>
+				<img src="img/11.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"></button>
+				<span class="navbar-toggler-icon">
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive"></div>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Главная</a>
+					</li>
+						<li class="nav-item">
+						<a href="#" class="nav-link">Про нас</a>
+					</li>
+						<li class="nav-item">
+						<a href="#" class="nav-link">Контакти</a>
+					</li>
+						<li class="nav-item">
+						<a href="#" class="nav-link">Сервиси</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Сервиси</a>
+					</li>
+		</div>
+	<div class="carousel slide" data-ride="carousel" id="slides"></div>
+		<ul class="carousel-indicators"></ul>
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1">
+				
+			</li>
+			<li data-target="#slides" data-slide-to="2">
+				
+			</li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item-active">
+				<img src="img/1.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">It proger</h1>
+					<h3>Научитесь програмировать</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">Посмотреть</button>
+					<button type="button" class="btn btn-warning btn-lg">Демо сайта</button>
+		</div>
+			</div>
+				<div class="carousel-item">
+				<img src="img/2.jpg">
+			</div>
+				<div class="carousel-item">
+				<img src="img/3.jpg">
+			</div>
+			</div>
+		
+	
+		</div>
+	</div>
+
+	</nav>
+</body>
+</html>
